@@ -1,0 +1,119 @@
+/* top section */
+.bott-top {
+   color: white;
+   background-color: #333;
+   text-decoration: none;
+   padding: 14px 40px;
+   border-radius: 5px;
+   margin-top: 5px;
+   align-items: end;
+   transition: background-color 0.3s ease, transform 0.3s ease;
+   
+}
+
+
+.bott-top:hover {
+    background-color: rgb(43, 36, 36); 
+}
+
+.top-section {
+    background-color: rgba(255, 255, 255, 0.771);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #5a2b2bbe;
+    color: #333;
+}
+
+.hero-section {
+    
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f6eded;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    transition: transform 0.6s ease;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content h1:hover {
+    transform: scale(1.1);
+}
+
+/*Buttons*/
+.bott-coffee {
+    background-color: #e91e63;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.bott-coffee:hover {
+    background-color: #d81b60;
+    
+}
+
+/* Products Section */
+.products-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, 0.771);
+}
+
+.product {
+    background-color: rgba(255, 255, 255, 0.771);
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+}
+
+.product h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.product p {
+    margin-bottom: 1.5rem;
+    color: #777;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
